@@ -1,25 +1,9 @@
-#  News：新课发布，《动手自制大模型推理框架》，全手写cuda算子，课程框架支持LLama2和3.x
-Hi，各位朋友们好！我是 KuiperInfer 的作者。KuiperInfer 作为一门开源课程，迄今已经在 GitHub 上已斩获 2.4k star。 如今在原课程的基础上，**我们全新推出了《动手自制大模型推理框架》， 新课程支持Llama系列大模型（包括最新的LLama3.2），同时支持 Cuda 加速和 Int8 量化，自推出以来便广受好评。**
-
-## 《动手自制大模型推理框架》课程目录：
-
-https://l0kzvikuq0w.feishu.cn/docx/ZF2hd0xfAoaXqaxcpn2c5oHAnBc
-
-**如果你对大模型推理感兴趣，想要深入了解并掌握相关技术，那么这门课程绝对不容错过。快来加入我们，一起开启学习之旅吧！
-    感兴趣的同学欢迎扫一扫课程下方二维码或者添加微信 lyrry1997 参加课程**
-
-
-
-<img src="./imgs/me.jpg"  />
-
-
-
 ## 项目运行效果
 > LLama1.1b fp32模型，视频无加速，运行平台为Nvidia 3060 laptop，速度为60.34 token/s
 
 ![](./imgs/do.gif)
 
-## 课程目录
+## 目录
 
 
 **一、项目整体架构和设计**
