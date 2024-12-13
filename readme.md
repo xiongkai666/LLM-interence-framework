@@ -4,31 +4,36 @@
 ![](./imgs/do.gif)
 
 ## 目录
+
 **一、项目整体架构和设计**
 1. 环境的安装
 2. 资源管理和内存管理类的设计与实现
 3. 张量类的设计与实现
 4. 算子类的设计与实现
 5. 算子的注册和管理
+
 **二、支持LLama2模型结构**
-6. LLama模型的分析
-7. MMap内存映射技术打开大模型的权重文件
-8. LLama模型文件的参数和权重载入 
-9. LLama中各个层的初始化以及输入张量、权重张量的分配和申请
-10. 实现大模型中的KV Cache机制
+7. LLama模型的分析
+8. MMap内存映射技术打开大模型的权重文件
+9. LLama模型文件的参数和权重载入 
+10. LLama中各个层的初始化以及输入张量、权重张量的分配和申请
+11. 实现大模型中的KV Cache机制
+
 **三、模型的量化**
-11. 量化模型权重的导出
-12. 量化系数和权重的加载
-13. 量化乘法算子的实现
+12. 量化模型权重的导出
+13. 量化系数和权重的加载
+14. 量化乘法算子的实现
+
 **四、Cuda基础和算子实现**
-14. RMSNorm算子的Cuda实现
-15. Softmax算子的Cuda实现
-16. Add算子的Cuda实现 
-17. Swiglu算子的Cuda实现 
-18. GEMV算子的Cuda实现 
-19. 多头注意力机制的Cuda实现 
-20. 让框架增加Cuda设备的支持和管理 
-21. 完成Cuda推理流程
+15. RMSNorm算子的Cuda实现
+16. Softmax算子的Cuda实现
+17. Add算子的Cuda实现 
+18. Swiglu算子的Cuda实现 
+19. GEMV算子的Cuda实现 
+20. 多头注意力机制的Cuda实现 
+21. 让框架增加Cuda设备的支持和管理 
+22. 完成Cuda推理流程
+
 ## 第三方依赖
 1. google glog https://github.com/google/glog
 2. google gtest https://github.com/google/googletest
